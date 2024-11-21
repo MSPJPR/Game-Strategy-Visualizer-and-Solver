@@ -1,5 +1,4 @@
 # Game-Strategy-Visualizer-and-Solver
-
 Objective:
 
 The Game Strategy Visualizer and Solver is an interactive, web-based application designed to analyze and solve game theory problems. It allows users to input game scenarios (e.g., payoff matrices) and provides solutions for key game theory concepts like Nash Equilibria, Mixed Strategies, and more. The project focuses on real-time computation, visualization, and educational insights into game theory.

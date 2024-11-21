@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Strategy Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Game Strategy Visualizer</h1>
+    </header>
+    <main>
+        <section id="game-input">
+            <h2>Enter Payoff Matrix</h2>
+            <textarea id="matrix-input" placeholder="Enter payoff matrix as JSON (e.g., [[1, -1], [-1, 1]])"></textarea>
+            <button id="solve-btn">Solve Nash Equilibrium</button>
+        </section>
+        <section id="output">
+            <h2>Results</h2>
+            <div id="result"></div>
+            <canvas id="visualization" width="500" height="400"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>Game Theory Project © 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
